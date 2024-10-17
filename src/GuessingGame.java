@@ -8,7 +8,7 @@ public class GuessingGame {
         // The correct name to guess
         String correctName = "Emma";
         String guess = "";
-        int attempts = 0;
+        int attempts = 3;
 
         // Keep asking until the correct guess or the user types "stop"
         while (!guess.equalsIgnoreCase(correctName) && !guess.equalsIgnoreCase("stop")) {

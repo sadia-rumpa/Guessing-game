@@ -18,7 +18,7 @@ public class GuessingGame {
 
             // Check if the guess is correct
             if (guess.equalsIgnoreCase(correctName)) {
-                System.out.println("Congratulations!");
+                System.out.println("Congratulations! you have the correct name");
             }
         }
 
